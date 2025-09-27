@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inces - Уникальные путешествия</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-globe-americas"></i>
+                    Inces
+                </div>
+                <button class="menu-toggle">☰</button>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#destinations">Направления</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#testimonials">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой-секция -->
+        <section id="home" class="hero fade-in">
+            <div class="container">
+                <h1>Откройте мир с Inces</h1>
+                <p>Уникальные путешествия, которые изменят ваше представление об отдыхе. Откройте для себя самые захватывающие уголки планеты с нами.</p>
+                <a href="#destinations" class="btn">Найти путешествие</a>
+            </div>
+        </section>
+
+        <!-- О нас -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="features">
+                    <div class="feature fade-in">
+                        <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <h3>Уникальные маршруты</h3>
+                        <p>Мы разрабатываем эксклюзивные маршруты, которые позволяют увидеть скрытые жемчужины каждого направления.</p>
+                    </div>
+                    <div class="feature fade-in">
+                        <div class="feature-icon"><i class="fas fa-user-friends"></i></div>
+                        <h3>Небольшие группы</h3>
+                        <p>Путешествуйте в комфортных небольших группах до 12 человек для более персонализированного опыта.</p>
+                    </div>
+                    <div class="feature fade-in">
+                        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                        <h3>Устойчивый туризм</h3>
+                        <p>Мы поддерживаем местные сообщества и минимизируем воздействие на окружающую среду.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Направления -->
+        <section id="destinations" class="destinations">
+            <div class="container">
+                <h2 class="section-title">Популярные направления</h2>
+                <div class="destination-grid">
+                    <div class="destination-card fade-in">
+                        <div class="destination-img">
+                            <img src="https://images.unsplash.com/photo-1537984822441-cff330075342?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Япония">
+                        </div>
+                        <div class="destination-content">
+                            <h3>Япония: Сакура и традиции</h3>
+                            <p>14-дневное путешествие по самым красивым местам Японии в сезон цветения сакуры.</p>
+                            <div class="price">от 125 000 ₽</div>
+                        </div>
+                    </div>
+                    <div class="destination-card fade-in">
+                        <div class="destination-img">
+                            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Норвегия">
+                        </div>
+                        <div class="destination-content">
+                            <h3>Норвегия: Фьорды и северное сияние</h3>
+                            <p>Невероятное путешествие по фьордам с возможностью увидеть северное сияние.</p>
+                            <div class="price">от 98 000 ₽</div>
+                        </div>
+                    </div>
+                    <div class="destination-card fade-in">
+                        <div class="destination-img">
+                            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Бали">
+                        </div>
+                        <div class="destination-content">
+                            <h3>Бали: Остров богов</h3>
+                            <p>Райский отдых на лучших пляжах Бали с погружением в местную культуру и традиции.</p>
+                            <div class="price">от 85 000 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Галерея -->
+        <section id="gallery">
+            <div class="container">
+                <h2 class="section-title">Наши путешествия</h2>
+                <div class="gallery">
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Путешествие 1">
+                        <div class="gallery-overlay">Горные пейзажи Швейцарии</div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Путешествие 2">
+                        <div class="gallery-overlay">Пляжи Мальдив</div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Путешествие 3">
+                        <div class="gallery-overlay">Улицы Праги</div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Путешествие 4">
+                        <div class="gallery-overlay">Пустыня Сахара</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title" style="color: white;">Что говорят наши клиенты</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial fade-in">
+                        <div class="testimonial-text">
+                            "Путешествие в Японию с Inces превзошло все мои ожидания! Организация на высшем уровне, гиды - настоящие профессионалы."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Анна">
+                            </div>
+                            <div class="author-info">
+                                <h4>Анна К.</h4>
+                                <p>Путешествие в Японию, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial fade-in">
+                        <div class="testimonial-text">
+                            "Спасибо за незабываемое путешествие по Норвегии! Северное сияние было просто волшебным. Обязательно поеду снова."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Дмитрий">
+                            </div>
+                            <div class="author-info">
+                                <h4>Дмитрий С.</h4>
+                                <p>Тур по Норвегии, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial fade-in">
+                        <div class="testimonial-text">
+                            "Бали с Inces - это не просто отдых, это настоящее погружение в культуру. Спасибо за уникальный опыт!"
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Елена">
+                            </div>
+                            <div class="author-info">
+                                <h4>Елена В.</h4>
+                                <p>Отдых на Бали, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h3>Наш офис</h3>
+                                <p>г. Москва, ул. Путешественников, 15</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h3>Телефон</h3>
+                                <p>+7 (495) 123-45-67</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@inces-travel.ru</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <h3>Время работы</h3>
+                                <p>Пн-Пт: 9:00-20:00<br>Сб-Вс: 10:00-18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form fade-in">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="interest">Интересующее направление</label>
+                                <select id="interest" name="interest">
+                                    <option value="">Выберите направление</option>
+                                    <option value="japan">Япония</option>
+                                    <option value="norway">Норвегия</option>
+                                    <option value="bali">Бали</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Сообщение</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Inces Travel</h3>
+                    <p>Мы создаем уникальные путешествия, которые запоминаются на всю жизнь. Откройте мир с нами!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Направления</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Азия</a></li>
+                        <li><a href="#">Европа</a></li>
+                        <li><a href="#">Африка</a></li>
+                        <li><a href="#">Северная Америка</a></li>
+                        <li><a href="#">Южная Америка</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Поддержка</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Частые вопросы</a></li>
+                        <li><a href="#">Условия бронирования</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Способы оплаты</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Новости</h3>
+                    <p>Подпишитесь на рассылку, чтобы первыми узнавать о новых турах и акциях:</p>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ваш email" style="margin-top: 10px;">
+                        <button class="btn" style="width: 100%; margin-top: 10px;">Подписаться</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Inces Travel. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
